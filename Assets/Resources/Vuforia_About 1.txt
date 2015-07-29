@@ -1,0 +1,19 @@
+﻿The Cloud Reco sample shows how to use the cloud recognition service to recognize targets located in a cloud database.
+
+Key Functionality
+- Manage detection and tracking of cloud based image targets
+- Activate Extended Tracking
+- Manage camera functions: flash and continuous autofocus
+
+Targets
+https://developer.vuforia.com/sites/default/files/sample-apps/targets/imagetargets_targets.pdf
+
+Instructions
+- Point camera at target to view
+- Single tap to focus
+- Double tap to access options menu
+
+Terms of Use
+https://developer.vuforia.com/legal/EULA
+
+© 2012-2015 Qualcomm Connected Experiences, Inc. All Rights Reserved.
