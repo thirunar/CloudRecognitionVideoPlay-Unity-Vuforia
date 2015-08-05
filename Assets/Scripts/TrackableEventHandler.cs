@@ -112,16 +112,10 @@ public class TrackableEventHandler : MonoBehaviour,
         // Optionally play the video automatically when the target is found
 
         VideoPlaybackBehaviour video = GetComponentInChildren<VideoPlaybackBehaviour>();
-
-		video.VideoPlayer.Unload ();
-		video.m_path = CloudRecoEventHandler.mPath;
-		video.VideoPlayer.SetFilename (CloudRecoEventHandler.mPath);
-		video.VideoPlayer.Load (CloudRecoEventHandler.mPath, VideoPlayerHelper.MediaType.ON_TEXTURE, true, 0);
         if (video != null && video.AutoPlay)
         {
             if (video.VideoPlayer.IsPlayableOnTexture())
             {
-				Debug.Log("Video File: " + video.m_path);
                 VideoPlayerHelper.MediaState state = video.VideoPlayer.GetStatus();
                 if (state == VideoPlayerHelper.MediaState.PAUSED ||
                     state == VideoPlayerHelper.MediaState.READY ||

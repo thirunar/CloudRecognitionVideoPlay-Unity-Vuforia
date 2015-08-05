@@ -19,7 +19,7 @@
 	<DebugType>full</DebugType>
 	<Optimize>false</Optimize>
 	<OutputPath>Temp\bin\Debug\</OutputPath>
-	<DefineConstants>DEBUG;TRACE;UNITY_5_1_2;UNITY_5_1;UNITY_5;ENABLE_NEW_BUGREPORTER;ENABLE_2D_PHYSICS;ENABLE_4_6_FEATURES;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_FRAME_DEBUGGER;ENABLE_GENERICS;ENABLE_HOME_SCREEN;ENABLE_IMAGEEFFECTS;ENABLE_LIGHT_PROBES_LEGACY;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_PHYSICS_PHYSX3;ENABLE_PLUGIN_INSPECTOR;ENABLE_SHADOWS;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_UNET;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_LICENSE;ENABLE_AUDIOMIXER_SUSPEND;ENABLE_EDITOR_METRICS;INCLUDE_DYNAMIC_GI;INCLUDE_GI;INCLUDE_IL2CPP;INCLUDE_DIRECTX12;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_LOCALIZATION;UNITY_ANDROID;UNITY_ANDROID_API;ENABLE_SUBSTANCE;ENABLE_TEXTUREID_MAP;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_MONO;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_OSX;VUFORIA_ANDROID_SETTINGS;VUFORIA_SAMPLE_ORIENTATION_SETTINGS</DefineConstants>
+	<DefineConstants>DEBUG;TRACE;UNITY_5_1_2;UNITY_5_1;UNITY_5;ENABLE_NEW_BUGREPORTER;ENABLE_2D_PHYSICS;ENABLE_4_6_FEATURES;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_FRAME_DEBUGGER;ENABLE_GENERICS;ENABLE_HOME_SCREEN;ENABLE_IMAGEEFFECTS;ENABLE_LIGHT_PROBES_LEGACY;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_PHYSICS_PHYSX3;ENABLE_PLUGIN_INSPECTOR;ENABLE_SHADOWS;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_UNET;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_LICENSE;ENABLE_AUDIOMIXER_SUSPEND;ENABLE_EDITOR_METRICS;INCLUDE_DYNAMIC_GI;INCLUDE_GI;INCLUDE_IL2CPP;INCLUDE_DIRECTX12;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_LOCALIZATION;UNITY_ANDROID;UNITY_ANDROID_API;ENABLE_SUBSTANCE;ENABLE_TEXTUREID_MAP;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_MONO;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;VUFORIA_ANDROID_SETTINGS;VUFORIA_SAMPLE_ORIENTATION_SETTINGS</DefineConstants>
 	<ErrorReport>prompt</ErrorReport>
 	<WarningLevel>4</WarningLevel>
 	<NoWarn>0169</NoWarn>
@@ -39,10 +39,10 @@
 	<Reference Include="System.Core" />
 	<Reference Include="System.Xml.Linq" />
 	<Reference Include="UnityEngine">
-	  <HintPath>/Applications/Unity/Unity.app/Contents/Frameworks/Managed/UnityEngine.dll</HintPath>
+	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
 	</Reference>
 	<Reference Include="UnityEditor">
-	  <HintPath>/Applications/Unity/Unity.app/Contents/Frameworks/Managed/UnityEditor.dll</HintPath>
+	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
 	</Reference>
   </ItemGroup>
   <ItemGroup>
@@ -63,6 +63,49 @@
      <Compile Include="Assets\Common\UIFramework\SampleInitErrorHandler.cs" />
      <Compile Include="Assets\Common\UIFramework\SceneViewManager.cs" />
      <Compile Include="Assets\Common\UIFramework\SplashScreenView.cs" />
+     <Compile Include="Assets\MaterialUI\Examples\Scripts\04 - RadioButton\Example04.cs" />
+     <Compile Include="Assets\MaterialUI\Examples\Scripts\05 - Sliders\Example05.cs" />
+     <Compile Include="Assets\MaterialUI\Scripts\Anim.cs" />
+     <Compile Include="Assets\MaterialUI\Scripts\ButtonInteractableControl.cs" />
+     <Compile Include="Assets\MaterialUI\Scripts\CheckBoxToggler.cs" />
+     <Compile Include="Assets\MaterialUI\Scripts\CheckboxConfig.cs" />
+     <Compile Include="Assets\MaterialUI\Scripts\CheckboxFillerControl.cs" />
+     <Compile Include="Assets\MaterialUI\Scripts\ColorCopier.cs" />
+     <Compile Include="Assets\MaterialUI\Scripts\DialogBoxConfig.cs" />
+     <Compile Include="Assets\MaterialUI\Scripts\EZAnim.cs" />
+     <Compile Include="Assets\MaterialUI\Scripts\FPSCounter.cs" />
+     <Compile Include="Assets\MaterialUI\Scripts\HSBColor.cs" />
+     <Compile Include="Assets\MaterialUI\Scripts\InputFieldConfig.cs" />
+     <Compile Include="Assets\MaterialUI\Scripts\MaterialGlobals.cs" />
+     <Compile Include="Assets\MaterialUI\Scripts\MaterialUIScaler.cs" />
+     <Compile Include="Assets\MaterialUI\Scripts\MaterialUIVersion.cs" />
+     <Compile Include="Assets\MaterialUI\Scripts\MenuArrowAnim.cs" />
+     <Compile Include="Assets\MaterialUI\Scripts\NavDrawerConfig.cs" />
+     <Compile Include="Assets\MaterialUI\Scripts\NavMenuConfig.cs" />
+     <Compile Include="Assets\MaterialUI\Scripts\RadioConfig.cs" />
+     <Compile Include="Assets\MaterialUI\Scripts\RectTransformSnap.cs" />
+     <Compile Include="Assets\MaterialUI\Scripts\RippleAnim.cs" />
+     <Compile Include="Assets\MaterialUI\Scripts\RippleConfig.cs" />
+     <Compile Include="Assets\MaterialUI\Scripts\RippleControl.cs" />
+     <Compile Include="Assets\MaterialUI\Scripts\ScreenConfig.cs" />
+     <Compile Include="Assets\MaterialUI\Scripts\ScreenManager.cs" />
+     <Compile Include="Assets\MaterialUI\Scripts\SelectionBoxConfig.cs" />
+     <Compile Include="Assets\MaterialUI\Scripts\SelectionBoxSubscriber.cs" />
+     <Compile Include="Assets\MaterialUI\Scripts\SelectionListItemConfig.cs" />
+     <Compile Include="Assets\MaterialUI\Scripts\ShadowAnim.cs" />
+     <Compile Include="Assets\MaterialUI\Scripts\ShadowConfig.cs" />
+     <Compile Include="Assets\MaterialUI\Scripts\ShadowGen.cs" />
+     <Compile Include="Assets\MaterialUI\Scripts\ShadowSnap.cs" />
+     <Compile Include="Assets\MaterialUI\Scripts\SliderConfig.cs" />
+     <Compile Include="Assets\MaterialUI\Scripts\SnapButtonToText.cs" />
+     <Compile Include="Assets\MaterialUI\Scripts\SpriteSwapper.cs" />
+     <Compile Include="Assets\MaterialUI\Scripts\SwitchConfig.cs" />
+     <Compile Include="Assets\MaterialUI\Scripts\TextInputLine.cs" />
+     <Compile Include="Assets\MaterialUI\Scripts\ToastAnim.cs" />
+     <Compile Include="Assets\MaterialUI\Scripts\ToastControl.cs" />
+     <Compile Include="Assets\MaterialUI\Scripts\Toaster.cs" />
+     <Compile Include="Assets\MaterialUI\Scripts\ToggleConfig.cs" />
+     <Compile Include="Assets\MaterialUI\Scripts\ToggleTextChanger.cs" />
      <Compile Include="Assets\Qualcomm Augmented Reality\Scripts\BackgroundPlaneBehaviour.cs" />
      <Compile Include="Assets\Qualcomm Augmented Reality\Scripts\CloudRecoBehaviour.cs" />
      <Compile Include="Assets\Qualcomm Augmented Reality\Scripts\CylinderTargetBehaviour.cs" />
@@ -99,6 +142,7 @@
      <Compile Include="Assets\Qualcomm Augmented Reality\Scripts\WireframeBehaviour.cs" />
      <Compile Include="Assets\Qualcomm Augmented Reality\Scripts\WireframeTrackableEventHandler.cs" />
      <Compile Include="Assets\Qualcomm Augmented Reality\Scripts\WordBehaviour.cs" />
+     <Compile Include="Assets\Scripts\BackKey.cs" />
      <Compile Include="Assets\Scripts\CloudRecoSceneManager.cs" />
      <Compile Include="Assets\Scripts\CloudRecoScripts\CloudRecoEventHandler.cs" />
      <Compile Include="Assets\Scripts\CloudRecoScripts\CloudRecoTrackableEventHandler.cs" />
@@ -132,6 +176,7 @@
      <None Include="Assets\Plugins\iOS\VuforiaMediaSource\README.txt" />
      <None Include="Assets\StreamingAssets\QCAR\StonesAndChips.xml" />
      <None Include="Assets\Plugins\Android\VuforiaMediaSource\README.txt" />
+     <None Include="Assets\MaterialUI\Fonts\NOTICE.txt" />
      <None Include="Assets\Editor\QCAR\WebcamProfiles\profiles.xml" />
      <None Include="Assets\Qualcomm Augmented Reality\Shaders\DepthMask.shader" />
      <None Include="Assets\Scripts\Test.txt" />
@@ -144,19 +189,19 @@
      <None Include="Assets\readme_SDK.txt" />
      <None Include="Assets\Qualcomm Augmented Reality\Shaders\Text3D.shader" />
  <Reference Include="UnityEngine.UI">
- <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ <HintPath>C:/Program Files (x86)/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.Networking">
- <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ <HintPath>C:/Program Files (x86)/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.Analytics">
- <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
+ <HintPath>C:/Program Files (x86)/Unity/Editor/Data/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
  </Reference>
  <Reference Include="Qualcomm.Vuforia.UnityExtensions">
- <HintPath>/Users/thirunar/CloudRecognitionVideoPlay/Assets/Qualcomm Augmented Reality/Scripts/Internal/Qualcomm.Vuforia.UnityExtensions.dll</HintPath>
+ <HintPath>D:/Mobile App Development/Projects/CloudRecognitionVideoPlay/Assets/Qualcomm Augmented Reality/Scripts/Internal/Qualcomm.Vuforia.UnityExtensions.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.iOS.Extensions.Xcode">
- <HintPath>/Applications/Unity/Unity.app/Contents/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
+ <HintPath>C:/Program Files (x86)/Unity/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
  </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

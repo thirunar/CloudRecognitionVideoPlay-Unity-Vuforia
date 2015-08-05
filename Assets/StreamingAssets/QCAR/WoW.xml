@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
+  <Tracking>
+    <ImageTarget name="Marker-Wedding" size="10.000000 5.895196" />
+    <ImageTarget name="Marker-SG50" size="10.000000 4.718750" />
+    <ImageTarget name="Marker-Samsung" size="10.000000 7.500000" />
+    <ImageTarget name="Marker-Model" size="10.000000 5.666667" />
+    <ImageTarget name="Marker-LKY" size="10.000000 10.000000" />
+  </Tracking>
+</QCARConfig>

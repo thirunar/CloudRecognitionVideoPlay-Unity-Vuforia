@@ -60,9 +60,9 @@ public class VideoPlaybackBehaviour : MonoBehaviour
     private Texture mKeyframeTexture = null;
 
     private VideoPlayerHelper.MediaType mMediaType =
-            VideoPlayerHelper.MediaType.ON_TEXTURE;
+            VideoPlayerHelper.MediaType.ON_TEXTURE_FULLSCREEN;
 
-    public VideoPlayerHelper.MediaState mCurrentState =
+    private VideoPlayerHelper.MediaState mCurrentState =
             VideoPlayerHelper.MediaState.NOT_READY;
 
     private float mSeekPosition = 0.0f;
@@ -84,7 +84,6 @@ public class VideoPlaybackBehaviour : MonoBehaviour
     public VideoPlayerHelper VideoPlayer
     {
         get { return mVideoPlayer; }
-		set { this.mVideoPlayer = value;}
     }
 
     /// <summary>
